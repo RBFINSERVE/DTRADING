@@ -1,0 +1,878 @@
+/* --------------------home page----------------------- */
+body{
+  background-color: #f9f9f9;;
+}
+.navbar{    
+    background: url(navbarbg.png) no-repeat;
+    background-position: top left;
+    background-size: 100%;
+
+  
+   
+    display: block;
+    position:sticky;
+   
+    top: 0;
+    width: 100%;
+    z-index: 555;
+
+    min-height: 128px;
+    
+}
+#navcontainer{
+   
+    margin-right: 20%;
+  
+  
+}
+#navcontainer a{
+    margin: 14px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#navcontainer a.active{
+    color: #f24259;
+}
+
+
+
+#navlogo1{
+    color:#1c345d;
+    padding: 6px;
+    font-family: 'Luckiest Guy', cursive;
+    margin-left: 40px;
+    font-size: 36px;
+}
+#navlogo2{
+  color:#ffffff;
+  padding: 6px;
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+#navlogo{
+   color: #f24259
+}
+
+#navcontainer a:hover{
+  color: #f24259
+}
+#navtop a{
+  color:white;
+  text-decoration:none;
+}
+#navtop{
+    background: #f24259;
+    display: flex;
+    
+}
+#navtopright{
+    display: flex;
+margin-left: 6%;
+    justify-content: space-evenly;
+}
+#navtopleft{
+  display: flex;
+margin-left:52%;
+  justify-content: space-around;
+  padding: 2px;
+ 
+}
+#navtopleft i{
+  margin:10px
+}
+#navtopright i{
+    margin: 10px;
+    color: white;
+}
+#scrollbar{
+    margin-top:-128px;
+  
+}
+
+#s1{
+
+    position: relative;
+    background-image: linear-gradient(
+        #1c345d59, 
+        #1c345d6b
+      ), url(slider01.jpg);
+    background-size: cover;
+   
+   width: auto;
+   height: 700px;
+   display: flex;
+}
+#s2{
+    
+    position: relative;
+    background-image: linear-gradient(
+        #1c345d7c, 
+        #1c345d7e
+      ), url(slider02.jpg);
+    background-size: cover;
+   
+   width: auto;
+   height: 700px;
+   display: flex;
+
+}
+#s3{
+    
+    position: relative;
+    background-image: linear-gradient(
+        #1c345da2, 
+        #1c345d98
+      ), url(slider03.jpg);
+    background-size: cover;
+   
+   width: auto;
+   height: 700px;
+   display: flex;
+}
+#quote,#quote1 { animation: fadeIn 5s; }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+#quote,#quote1{
+    transition: ease-in;
+}
+#quote{
+  margin-top: 20%;
+  margin-left: 10%;
+  width: 40%;
+  color: white;
+
+}
+#quote1{
+    margin-top: 20%;
+    margin-left: 58%;
+   
+    width: 40%;
+    color: white;
+  
+  }
+  #quote1 h1{  font-size: 30px;
+    text-align:start;
+
+}
+ 
+#quote h1{  font-size: 30px;
+    text-align:start;
+
+}
+ .fa-quote-left,.fa-quote-right{
+        color: #f24259;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+   
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+ 
+      .prev:hover, .next:hover {
+        background-color: #f24259;
+        color:white;
+      }
+      #tabs3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+
+      }
+      #tab:hover{
+        margin-top: -80px;
+      }
+   
+#contacttab:hover{
+  margin-top:1px;
+}
+   
+      #tab{
+        position: relative;
+        margin-top: -60px;
+        margin-left: 30px;
+     
+       
+        width: 28%;
+        height: 190px;
+       
+        background-color: white;
+        box-shadow: 0px 10px 16px 0px rgb(0 0 0 / 8%);
+        border-radius: 6px;
+        text-align: center;
+        transition-timing-function: ease-in;
+        transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+      }
+      #tab img{
+        width: 40%;
+      }
+      #tab p{
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #233049e0;;
+        text-align: start;
+        padding: 6px;
+        font-weight: 550;
+        
+      }
+      #tab i{
+        margin-top: 4px;
+    font-size: 50px;
+        color: #f24259;
+      }
+      #tab button{
+        
+        background-color: #f24259;
+        text-decoration: none;
+        border-color: #f24259;
+        border-radius: 4px;
+ 
+       
+       
+      }
+      #tab button:hover{
+        background-color: white;
+        
+      }
+      #tab button a:hover{
+        color: #f24259;
+        font-weight: bold;
+      }
+      #tab button a{
+        color: white;
+        padding: 6px;
+        font-size: 18px;
+   
+        text-decoration: none;
+      }
+      #aliceb a{
+        color: #f24259;
+        font-weight: bold;
+        text-decoration: none;
+    
+        
+        
+      }
+      #welcome{
+        text-align: center;
+        
+      }
+      #welcome p{
+        font-weight: 450;
+        font-size: 24px;
+      margin: 50px;
+      color: #1c345d;
+
+      }
+      #welcome h4{
+        font-family: 'Poppins', sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+      margin-top: 80px;
+        color: #f24259;
+      }
+      #testimonial h4{   font-family: 'Poppins', sans-serif;
+        font-size: 36px;
+        font-weight: 500;
+      margin-top: 80px;
+      margin-bottom: 50px;
+        color: #f24259;
+      text-align: center;
+      }
+      #testimonialscroll{
+        display: flex;
+        justify-content: center;
+      }
+      #testtab{
+        display: flex;
+        width: 90%;
+        height: auto;
+       
+      }
+      #testdiv{
+        margin: 20px;
+        width: 50%;
+        height:250px;
+        border-radius: 6px;
+        background-color: #233049;
+        color: white;
+        text-align: center;
+        
+      }
+      #testdiv h5{
+        color: #f24259;
+        margin-top: 14px;
+      }
+      #testdiv p{
+        text-align: center;
+        font-weight: 400;
+        padding: 6px;
+      }
+      #testdiv img{
+        width: 22%;
+      border-radius: 100%;
+      margin-top: -16px;
+      border-color: white;
+      border-width: 4px;
+      border-style:solid;
+        
+      
+      }
+      #contact{
+        background-color: #233049;
+        display: flex;
+        
+      }
+      #footerdiv{
+        width:50%;
+        height: 300px;
+        padding-top: 60px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+      #footerdivlogo{
+        width:50%;
+        height: 300px;
+        padding-top: 60px;
+        text-align:start;
+      }
+      #footerdiv h4{
+        color:#f24259;
+        font-size: 34px;
+        font-weight: 500;
+      }
+    
+      #footerdivlogo p{
+        color: white;
+        text-align: start;
+        margin-left: 46px;
+        margin-top: 20px;
+       
+      }
+      #footera{
+        color: white;
+        margin-top: 20px;
+        text-decoration: none;
+        margin-left: 46px;
+       
+      }
+      #footera:hover{
+        color:#f24259;
+      }
+      #contactp1{
+       
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: start;
+        margin-left: 18px;
+
+      }
+      #contactp{
+        color: white;
+        text-align:start;
+        margin-left: 114px;
+        text-decoration: none;
+        margin-top: 20px;
+        font-size: 16px;
+      }
+      #contactp:hover{
+        color:#f24259;
+      }
+      #contactp1:hover{
+        color:#f24259;
+      }
+      #copyright{
+        background-color: #f24259;
+        color: white;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 10px;
+      
+      }
+      #cpspan {  font-family: 'Luckiest Guy', cursive;
+        font-size: 20px;
+        letter-spacing: 1px;
+  
+      }
+      #copyright a:hover{
+        color: #1e3c72e5;
+       
+
+      }
+      #copyright a{       
+        color: white;
+         text-decoration: none;
+
+
+      }
+      #rateh5{
+        padding-top: 20px;
+        text-align: center;
+        color: #f24259;
+        font-size: 30px;
+      }
+      #ratings{
+        display: flex;
+        justify-content: center;
+        padding-bottom:40px;
+      }
+      #rate{
+        padding: 10px;
+      }
+      
+      #rate i{
+        font-size: 22px;
+        color:#FFD700;
+
+      }
+      #rate i:hover{
+        color:#f24259;
+      }
+      ::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+      background-color: #f24259;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+      background-color: #f24259;
+    }
+/* --------------------------------------courses page--------------------------- */
+#scrollbar1{
+  margin-top:-128px;
+}
+
+#ss1{
+
+  position: relative;
+  background-image: linear-gradient(
+      #1c345da1, 
+      #1c345db6
+    ), url(slider01.jpg);
+  background-size: cover;
+ 
+ width: auto;
+ height: 400px;
+ display: flex;
+}
+#ss1 h5{
+  color: white;
+ margin: auto;
+ font-size: 40px;
+ font-weight: 500;
+
+}
+
+#courses{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#coursetab{
+  
+  background-color: #233049;
+color: white;
+text-align: center;
+  width: 34%;
+  border-radius: 10px;
+  height: 680px;
+  margin: 20px;
+}
+#coursetab h6{
+ font-size: 22px;
+ font-family: sans-serif;
+ font-weight: 600;
+ margin-top: 50px;
+
+ padding: 2px;
+}
+#cost{
+  background-color: white;
+  width: 100%;
+  height: 12%;
+  border-radius: 12px;
+  text-align: center;
+
+}
+#cost h3{
+  color: #1c345d;
+  font-size: 30px;
+  font-weight: 600;
+ padding-top: 26px;
+ 
+}
+
+#coursetab ul{
+
+  list-style: none;
+  text-align: start;
+ 
+  padding-top: 6px;
+ 
+
+}
+.fa-check{
+  color: #f24259;
+  font-size:20px;
+}
+#coursetab p{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+#coursetab li{
+  padding: 10px;
+}
+#joinbtn{
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+
+  font-size: 18px;
+  font-weight: 400;
+  padding: 16px;
+
+
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f24259;
+}
+#joinbtn:hover{
+  background-color: white;
+  color: #f24259;
+}
+#contacttabs{
+  display: flex;
+  justify-content: center;
+ 
+ 
+ 
+
+}
+#contacttab{
+  margin: 40px;
+ 
+  padding:50px;
+  display: flex;
+  flex-direction: column;
+ width: 60%;
+ height: 240px;
+
+box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.212);
+border-radius: 6px;
+}
+#contacttab h4{
+  color: #f24259;
+  text-align: center;
+}
+#contactp2{
+  color: #1c345d;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}#contactp3{
+  color: #1c345d;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#contactp2:hover{
+  color: #f24259;
+}
+#contactp2 i{
+  color: #f24259;
+}
+#contactp3 i{
+  color: #f24259;
+}
+#ratings1{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+margin-left: 10px;
+ 
+}
+/*  -----------------------------Gallery-------------------    */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-height: 40%;
+  max-width: 40%;
+  padding: 0 4px;
+  margin: 20px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 10px;
+}
+.column img:hover{
+  border-color: #f24259;
+  border-style: solid;
+  border-width: 4px;
+ 
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* -------------------Responsive -----------------------*/
+      @media(max-width:786px) {
+       
+     .navbar{
+      background-image: none;
+
+     }
+     #navlogo1{
+      font-size: 30px;
+      margin-left: 0px;
+      margin-top: 10px;
+     }
+     .navbar-toggler{
+      font-size: 12px;
+     }
+     
+        #navtopleft div{
+          width: 100%;
+          font-size: 14px;
+          margin: 0%;
+          padding: 0%;
+        }
+      
+        #navtopleft{
+          width: 100%;
+      
+          margin: 0%;}
+          #navtopright a{
+            font-size: 12px;
+            margin: 0%;
+          }
+          #navtopright i{
+            margin: 0%;
+          }
+          #navtopleft i{
+            margin: 0%;
+          }
+        #navtopleft a{
+          font-size: 10px;
+        }
+        #navtopright{
+          width: 100%;
+          margin: 0%;
+         
+         
+         
+        }
+        .prev, .next {
+      
+          top: 34%;
+          width: auto;
+          }
+        #scrollbar{
+          margin-top:-26px;
+          
+        
+      }
+      #scrollbar1{
+        margin-top:-26px;      }
+
+      
+        #ss1{
+          width: auto;
+         height: 300px;
+      }
+       
+        #s1{
+            width: auto;
+           height: 300px;
+        }
+        #s2{
+            width: auto;
+           height: 300px;
+        }
+        #s3{
+            width: auto;
+           height: 300px;
+        }
+        #quote h1{  font-size: 24px;
+          padding: 8px;
+    
+        }
+        #quote1 h1{  font-size: 24px;
+    
+        }
+        #quote{
+            width: 100%;
+        }
+        #quote1{
+          
+        
+          
+           margin-left: 10%;
+           
+           
+            width: 100%;
+           
+          
+          }
+          #tabs3{
+            display: flex;
+            flex-direction:column;
+           
+    
+          }
+          #tab{
+            width: 90%;
+            height: 190px;
+            margin-top: 12px;
+            margin-right: auto;
+            margin-left: auto;
+          
+           
+          }
+          #tab img{
+            width: 30%;
+          }
+          
+           
+           
+          
+        #testdiv{
+          margin: auto;
+          margin-bottom: 10px;
+          width: 80%;
+          height:240px;
+        }
+        
+          #testtab{
+          
+            flex-direction: column;
+            width: 100%;
+        height: auto;
+          }
+          #welcome p{
+            font-weight: 500;
+            text-align:center;
+            font-size: 22px;
+          margin: 18px;}
+          #contact{
+            flex-direction: column;
+            
+          }
+          #footerdiv{
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+          #contactp{
+            text-align: start;
+            margin-left:28px;
+          }
+          #contactp1{
+         
+            text-align: start;
+            margin-left: 28px;
+          }
+         
+          #footerdiv h4{
+            text-align: start;
+            margin-left:28px;
+          }
+          #footerdivlogo{
+            width: 100%;
+            text-align:justify;
+            margin-left: -12px;
+            margin-bottom: 10px;
+          }
+          #copyright{
+            font-size: 16px;
+          }
+          #copyright span{
+            font-size: 16px;
+          }
+          #cpspan{
+            font-size: 16px;
+            
+          }
+          #contacttab{
+          width: 80%;
+          margin-right: auto;
+          margin-left: auto;
+          }
+         
+          #courses{
+           flex-direction: column;
+          }
+          #coursetab{
+          
+  
+           
+       
+          
+            width: 90%;
+            height:780px;
+          }
+          #contacttabs{
+         flex-direction: column;
+          }
+        
+        }
