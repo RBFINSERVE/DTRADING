@@ -628,12 +628,42 @@ border-radius: 6px;
 margin-left: 10px;
  
 }
-/*  -----------------------------Gallery-------------------    */
+/*  -----------------------------Mentorship-------------------    */
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 justify-content: center;
+}
+#mentorli{
+ display: flex;
+ justify-content: center;
+}
+#mentorul{
+  list-style: none;
+  text-align: start;
+}
+#weblinks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+
+  
+
+}
+#weblinks a{
+  
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #f24259;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 6px;
 }
 
 /* Create four equal columns that sits next to each other */
